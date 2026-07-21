@@ -50,29 +50,28 @@ console.log(msg.endsWith("World!!!"))
 
 //first parameter index and second parameter is also index
 substr = msg .slice(0, 4)
-console.log
+console.log(substr)
 
+substr1 = msg.slice(1, 7)
+console.log(substr1)
+console.log("*********** substring ***********")
+substr3 = msg.substring(0, 4)
+console.log(substr3)
+substr4 = msg.substring(1, 7)
+console.log(substr4)
 
+console.log("********** substr *************")
+substr5 = msg.substr(0, 4)
+console.log(substr5)
+substr6 = msg.substr(1, 7)
+console.log(substr6)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+substr7 = msg.substr(5)
+console.log(substr7)
+substr8 = msg.substring(5)
+console.log(substr8)
+substr9 = msg.slice(5)
+console.log(substr9)
 
 
 // .trim(), .trimStart(), .trimEnd()
